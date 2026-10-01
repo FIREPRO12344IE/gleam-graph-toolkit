@@ -8,3 +8,7 @@
 > Commits you push to the connected branch sync back to Lovable and show up in
 > the editor, so keep the branch in a working state.
 <!-- LOVABLE:END -->
+
+## Project architecture
+
+- Keep the public website as a frontend-only single-page experience; this preserves static-host compatibility and the email-draft enquiry flow.
